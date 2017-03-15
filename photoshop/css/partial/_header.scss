@@ -1,0 +1,20 @@
+
+
+.logo {
+    max-height: 27px;
+
+}
+
+.navbar {
+    min-height: $menuHeight;
+    border: 0px;
+   
+
+    .navbar-brand, .navbar-right {
+     @include vertical-align;
+    }
+}
+
+.navbar-default {
+     background-color: black;
+}

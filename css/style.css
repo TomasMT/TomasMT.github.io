@@ -14,7 +14,7 @@ header {
     color: white;
 }
 
-h1 {
+header h1 {
     font-size: 60px;
 }
 
@@ -42,10 +42,10 @@ nav ul a {
     margin-left: 20px;
 } 
 
-.container {
+/*.container {
     width: 900px;
     margin: 0 auto;
-    margin-bottom: 115px;
+    margin-bottom: 115px;*/
 }
 
 nav {
@@ -121,15 +121,15 @@ nav li a:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.centre {
+.text-center {
     margin-top: 17px;
 }
 
-.col-xs-4 {
+/*.col-xs-4 {
     width: 30%;
     float: left;
     padding: 0 1%;
-}
+}*/
 
 .icon {
     background-image: url(../images/intro-icons.png);

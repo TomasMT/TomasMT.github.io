@@ -1,89 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="./css/normalize.css" >
-        <link rel="stylesheet" href="./css/style.css" >
-    </head>
-    <body>
-        <header>
-                <nav>
-                    <div class="container clearfix">
-                        <a href="#" class="logo pull-left">Tomas 
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container clearfix">
+                <a href="#" class="logo pull-left">Tomas 
                         <br> Janulaitis</a>
-                        <ul class="pull-right">
-                            <li><a href=""> Services</a></li>
-                            <li><a href=""> Portfolio</a></li>
-                            <li><a href=""> About me</a></li>    
-                            <li><a href="#get-in-touch"> Get in touch</a></li>
-                        </ul>
-                    </div>
-                </nav> 
-            <div class="call-to-action">
-               <div class="clearfix">
-                    <h1>Let's build a website</h1>
+                <ul class="pull-right">
+                    <li><a href=""> Services</a></li>
+                    <li><a href=""> Portfolio</a></li>
+                    <li><a href=""> About me</a></li>
+                    <li><a href="#get-in-touch"> Get in touch</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="call-to-action">
+            <div class="clearfix">
+                <h1>Let's build a website</h1>
 
                 <p class="intro">
-                    Hi, I'm developer<br> 
-                    I create <b>awesome</b> websites
+                    Hi, I'm developer<br> I create <b>awesome</b> websites
                 </p>
 
                 <button type="button" class="order-button">Order one now!</button>
                 <a href="#services" class="scroll-down"></a>
-                </div>
             </div>
-        </header>   
-        <section id="services">
-            <div class="container">
-                <!-- Section title -->
-                <div class="text-center">
-                    <h1>I can help you with</h1>
-                </div>
-                <div class="clearfix">
-                    <div class="col-xs-4">
+        </div>
+    </header>
+    <section id="services">
+        <div class="container">
+            <!-- Section title -->
+            <div class="text-center">
+                <h1>I can help you with</h1>
+            </div>
+            <!-->
+            <div class="clearfix">
+                <!-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="section-img"><i class="icon icon-design"></i></div>
                         <h2 class="section-content-title">Simple Website<br> Development
                         </h2>
                         <div class="section-content">
-                            <p>Do you have an idea for website? I create simple and beautiful websites that reflects your personal taste.</p>
+                            <p>Do you have an idea for website? I create simple and <br> beautiful websites that reflects your
+                                personal taste.</p>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="section-img"><i class="icon icon-galaxy"></i></div>
                         <h2 class="section-content-title">PSD to HTML5/CSS<br> conversion
                         </h2>
                         <div class="section-content">
-                            <p>Do you have a design for your website? Send it to me in (PSD, PNG, AI, etc.) format and I will convert it into standart compliant HTML5/CSS.</p>
+                            <p>Do you have a design for your website? Send it to me in (PSD, PNG, AI, etc.) format and I will
+                                convert it into standart compliant HTML5/CSS.</p>
                         </div>
                     </div>
-                    <div class="col-xs-4">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
                         <div class="section-img"><i class="icon icon-spaceship"></i></div>
                         <h2 class="section-content-title">Front – End<br> Programming
                         </h2>
                         <div class="section-content">
-                            <p>Are you looking for a front end developer? I worked on many projects over the past years so I can offer my skills.</p>
+                            <p>Are you looking for a front end developer? I worked on many projects over the past years so I
+                                can offer my skills.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
-    
-        <section id="get-in-touch">
-            <div class="container">
-                <form action="/contact" method="get">
-                    <div>
-                        <input id="name" type="text" name="name" placeholder="Your name">
-                    </div>
-                    <div>
-                        <label>
+    </section>
+
+    <section id="get-in-touch">
+        <div class="container">
+            <form action="/contact" method="get">
+                <div>
+                    <input id="name" type="text" name="name" placeholder="Your name">
+                </div>
+                <div>
+                    <label>
                             Your budget
                             <input type="number" name="biud=etas">  
-                        </label>  
-                    </div>
-                    <div>
-                        <label>
+                        </label>
+                </div>
+                <div>
+                    <label>
                             Select project type:
                             <select name="type">
                                 <option value="1">HTML</option>
@@ -91,35 +104,36 @@
                                 <option value="3">Full app</option>
                             </select>
                         </label>
-                    </div>
-                    <div class=myClassSpecial>>
-                        <label>
+                </div>
+                <div class=myClassSpecial>>
+                    <label>
                             Enter a descrition
                              <textarea name="description" cols="20" rows="5"></textarea>
                         </label>
-                    </div>
-                    <div>
-                        <input type="file" name="attached-file">
-                    </div>
-                    <div>
-                         Do you need a design?
-                        <label>
+                </div>
+                <div>
+                    <input type="file" name="attached-file">
+                </div>
+                <div>
+                    Do you need a design?
+                    <label>
                             YES
                             <input name="design-needed" type="radio" value="1">
                         </label>
-                        <label>
+                    <label>
                             NO
                             <input name="design-needed" type="radio" value="2">
                         </label>
-                    </div>
-                    <div>   
-                        <input type="password">
-                        <input type="submit" value="Send">
+                </div>
+                <div>
+                    <input type="password">
+                    <input type="submit" value="Send">
 
-                        <button tupe="submit">Si7sti form1</button>
-                    </div>
+                    <button tupe="submit">Si7sti form1</button>
+                </div>
 
-                </form>        
-            </div>
-    </body>
+            </form>
+        </div>
+</body>
+
 </html>

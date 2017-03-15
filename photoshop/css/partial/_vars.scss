@@ -1,0 +1,7 @@
+$menuHeight: 70px;
+
+@mixin vertical-align(){
+    display: flex;
+    align-items: center;
+    height: $menuHeight;
+}

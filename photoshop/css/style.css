@@ -1,0 +1,17 @@
+.logo {
+  max-height: 27px; }
+
+.navbar {
+  min-height: 70px;
+  border: 0px; }
+  .navbar .navbar-brand, .navbar .navbar-right {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 70px; }
+
+.navbar-default {
+  background-color: black; }

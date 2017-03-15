@@ -1,0 +1,11 @@
+/*@media (min-width: 768px) AND (max-width: 992px) {
+        .col-xs-4 {
+            width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+        .col-xs-4 {
+            width: 50%;
+    }
+}*/

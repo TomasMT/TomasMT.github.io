@@ -1,7 +1,13 @@
+//Colors
+$orange: #ff8b38; 
+
 $menuHeight: 70px;
 
-@mixin vertical-align(){
-    display: flex;
-    align-items: center;
-    height: $menuHeight;
-}
+// Define Bootstrap 3 style media query variables
+$debug: false;
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;

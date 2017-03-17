@@ -1,20 +1,60 @@
 
 
-.logo {
-    max-height: 27px;
-
-}
-
 .navbar {
     min-height: $menuHeight;
     border: 0px;
+    border-radius: 0;
+    margin-bottom: 0;
    
+    .logo {
+        max-height: 27px;
+        }
 
     .navbar-brand, .navbar-right {
      @include vertical-align;
+     min-height: $menuHeight;   
+    }
+
+    a {
+        color: #fff !important;
+        border-bottom: 2px solid transparent;  
+
+        &:not(.navbar-brand):hover {
+            border-color: $orange;
+        }
+
+        &:not(.navbar-brand):active {
+            background-color: $orange!important;
+        }
+    }
+
+    &-default {
+        background-color: black;
     }
 }
 
-.navbar-default {
-     background-color: black;
+.welcome {
+    padding: 110px 0 140px;
+    background: url('../images/image.jpg') 0 0 no-repeat;
+    background-size: cover;
+
+    .col-sm-8 {
+        padding-left: 0;
+    }
+
+    &_text {
+        max-width: 520px;
+        color: #fff;
+
+        h1, p { @extend .alt-font }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 16px;
+        }
+    }
 }
